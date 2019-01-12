@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Lacie Wilson | UI and UX Design</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans|Open+Sans+Condensed:300|Raleway|PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Slab" rel="stylesheet">
+    <!-- CSS -->
+     <link rel="stylesheet" href="styles/style.css">
+     <link rel="stylesheet" href="styles/animate.css">
+
+     <script src="javascript/jquery-3.2.1.min.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="topheader">
+        <a href="index.html" class="site-logo">
+          <img src="images/logo.png" alt="Lacie Wilson" />
+        </a>
+
+        <div class="dropdown">
+          <button class="dropbtn">&#9776;</button>
+          <div class="dropdown-content">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="index.html#here">WORK</a>
+          </div>
+        </div>
+
+      <nav class="navigation">
+       <ul>
+         <li class="home"><a href="index.html">HOME</a></li>
+         <li class="about"><a href="about.html">ABOUT</a></li>
+         <li class="contact"><a href="contact.html">CONTACT</a></li>
+         <li class="portfolio"><a href="index.html#here">WORK</a></li>
+       </ul>
+    </nav>
+    </div>
+    <div class="hero animated fadeIn">
+       <h1>BEAUTIFULLY <span class="simple">SIMPLE<span>.</h1>
+       <p class="description">I’m <strong> Wilson,</strong> a UX researcher in <strong>Portland, Oregon</strong> with a background in
+         <strong>coding</strong> and <strong>design</strong>. I strive to create <strong>user-friendly</strong> interfaces and
+         <!--experiences.</p>-->
+       <p class="signature">- Lacie Wilson</p>
+     </div>
+
+     <div class="arrow">
+       <a href="#" id="buttondown"><img src="images/downarrow.png" class="downarrow" /></a>
+     </div>
+    </header>
+
+   <!-- Work -->
+   <main>
+     <section class="work">
+       <div class="worktitle" id="here">WORK</div>
+       <div class="parent">
+         <div class="box" id="box2">
+           <div class="boxtext">
+             <img src="images/wrwlogo.png" class="wrwlogo" alt="William Rose Wines"/>
+            <!-- <h1 class="wrwslogan">Save. Share. Collaborate.</h1>-->
+             <!--<a href="wrwindex.html" class="btn">VIEW CASE STUDY</a>-->
+             <a href="index.html" class="btn">COMING SOON</a>
+           </div>
+         </div>
+        </div>
+     </section>
+
+     <section class="work">
+       <div class="worktitle" id="here">WORK</div>
+       <div class="parent">
+         <div class="box" id="box1">
+           <div class="boxtext">
+             <img src="images/brightboardlogo.png" class="brightboardlogo" alt="Brightboard"/>
+             <h1 class="brightboardslogan">Save. Share. Collaborate.</h1>
+             <a href="brightboardindex.html" class="btn">VIEW CASE STUDY</a>
+           </div>
+         </div>
+        </div>
+     </section>
+  </main>
+
+ <!-- Footer -->
+ <footer>
+   <div class="footer-nav-block">
+     <div class="logo">
+       <img class ="logoreversed" src="images/logoreversed.png" alt="Lacie Wilson" />
+     </div>
+     </div>
+       <nav>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="index.html#here">Work</a></li>
+           <li><a href="https://www.linkedin.com/in/lacie-wilson-531719a3/" target="_blank" >LinkedIn</a></li>
+           <li><a href="mailto:laciewilson9@gmail.com">Email Me</a></li>
+         </ul>
+       </nav>
+     </div>
+  </div>
+ </footer>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript">
+
+
+ $("#buttondown").click(function() {
+   $('html,body').animate({
+        scrollTop: $("#here").offset().top},
+        'slow');
+    });
+
+
+ </script>
+
+
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109043945-1"></script>
+
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+
+   gtag('config', 'UA-109043945-1');
+ </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Lacie Wilson | UI and UX Design</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans|Open+Sans+Condensed:300|Raleway|PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Slab" rel="stylesheet">
+    <!-- CSS -->
+     <link rel="stylesheet" href="styles/contactstyles.css">
+
+     <script src="javascript/jquery-3.2.1.min.js"></script>
+
+
+  </head>
+  <body>
+    <header>
+      <div class="topheader">
+        <a href="index.html" class="site-logo">
+          <img src="images/logowhite.png" alt="Lacie Wilson" />
+        </a>
+
+        <div class="dropdown">
+          <button class="dropbtn">&#9776;</button>
+          <div class="dropdown-content">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="index.html#here">WORK</a>
+          </div>
+        </div>
+
+    <nav class="navigation">
+       <ul>
+         <li class="home"><a href="index.html">HOME</a></li>
+         <li class="about"><a href="about.html">ABOUT</a></li>
+         <li class="contact"><a href="contact.html">CONTACT</a></li>
+         <li class="portfolio"><a href="index.html#here">WORK</a></li>
+       </ul>
+    </nav>
+    </div>
+    <div class="contactwrapper">
+      <div class="contactcontent">
+         <h1 class="animated fadeIn">CONNECT WITH <span class="simple">ME<span>.</h1>
+        <h2>I'd love to hear from you!
+        </h2>
+         <p>Connect with me online or contact me right here.
+        </p>
+        <div class="buttons">
+          <a href="mailto:laciewilson9@gmail.com" class="btn email">EMAIL ME!</a>
+          <a href="https://www.linkedin.com/in/lacie-wilson-531719a3/" target="_blank" class="btn linkedin">LINKEDIN</a>
+        </div>
+       </div>
+
+   </div>
+    </header>
+
+ <!-- Footer -->
+
+ <footer>
+   <div class="footer-nav-block">
+     <div class="logo">
+       <img class ="logoreversed" src="images/logoreversed.png" alt="Lacie Wilson" />
+     </div>
+     <div class="footernav">
+       <nav>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="index.html#here">Work</a></li>
+           <li><a href="https://www.linkedin.com/in/lacie-wilson-531719a3/" target="_blank" >LinkedIn</a></li>
+           <li><a href="mailto:laciewilson9@gmail.com">Email Me</a></li>
+         </ul>
+       </nav>
+     </div>
+  </div>
+ </footer>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+ $("#buttondown").click(function() {
+   $('html,body').animate({
+        scrollTop: $("#here").offset().top},
+        'slow');
+    });
+ </script>
+
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109043945-1"></script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+
+   gtag('config', 'UA-109043945-1');
+ </script>
+</body>
+</html>
