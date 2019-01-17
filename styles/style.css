@@ -256,6 +256,14 @@ header .hero p.description {
   width: 400px;
 }
 
+.codeforpdxlogo {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0px;
+  width: 50%;
+}
+
 
 /* FOOTER */
 footer {
