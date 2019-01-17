@@ -193,7 +193,8 @@ img {vertical-align: middle;}
 
 .hero .wrwlogo {
   width: 600px;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
+  margin-bottom: 80px;
 }
 
 .hero .brightboardslogan {
