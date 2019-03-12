@@ -1,0 +1,42 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  color: #000;
+  font-family: 'Open Sans Condensed', Helvetica, Arial, serif;
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans Condensed', Helvetica, Arial, serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+p {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+}
+
+.userstoriescontent h1 {
+  text-align: center;
+}
+
+.userstoriescontent p {
+  margin-top: 40px;
+}
+
+.userstoriescontent {
+  margin: auto;
+  width: 50%;
+}

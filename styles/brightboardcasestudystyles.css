@@ -1024,7 +1024,7 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-.work .workbox {
+.work .box {
   align-items: center;
   background-color: #d3d3d3;
   display: flex;
@@ -1037,18 +1037,18 @@ img {vertical-align: middle;}
   width: 100%;
 }
 
-.work .workbox:hover {
+.work #box1:hover {
   background: url('../images/macbook.png');
   background-size: 100%;
   }
 
-.work #workbox1 h1 {
+.work #box1 h1 {
   color: #000;
   font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
   margin-top: 0px;
 }
 
-.work .workbox .brightboardlogo {
+.work .box .brightboardlogo {
   display: block;
   margin: auto;
   margin-bottom: 0px;
@@ -1056,11 +1056,11 @@ img {vertical-align: middle;}
   width: 200px;
 }
 
-.work .workbox .macbook {
+.work .box .macbook {
   width: 500px;
 }
 
-.work .workbox a{
+.work .box a{
   display: block;
   margin: auto;
 }

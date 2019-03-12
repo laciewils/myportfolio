@@ -537,6 +537,63 @@ header a.topbtn {
   margin-right: 40px;
 }
 
+.userresearch {
+  background-color: #f5f5f5;
+  color: #000;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.userresearch h1 {
+  text-align: center;
+}
+
+.userflows h2 {
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.userflowpics {
+  text-align: center;
+}
+
+.userflow {
+  margin-top: 40px;
+  width: 50%;
+}
+
+.userstories h2 {
+  text-align: center;
+}
+
+.userstories p {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.userstoriesbutton {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.userstories a.btn {
+  background: #000;
+  border-radius: 1px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+}
+
 .personas {
   background-color: #f5f5f5;
   background-size: 100%;
@@ -619,11 +676,32 @@ header a.topbtn {
   zoom: 1
 }
 
+.sketches h2 {
+  text-align: center;
+}
+
+.sketchesbeforepics {
+  text-align: center;
+}
+
+.sketchesbefore {
+  margin-top: 40px;
+  width: 50%;
+}
+
+.sketchesafterpics {
+  text-align: center;
+}
+
+.sketchesafter {
+  margin-top: 40px;
+  width: 50%;
+}
+
 /* BRANDING */
 .branding {
   background-color: #f5f5f5;
   color: #000;
-  margin-top: -100px;
   padding-top: 20px;
   position: relative;
   z-index: 1;
