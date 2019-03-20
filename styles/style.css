@@ -12,6 +12,7 @@ h1
 {
   color: #000000;
   font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  font-size: 36px;
 }
 h2 {
   color: #000000;
@@ -168,12 +169,12 @@ header .hero p.description {
 .signature {
   color: #fff;
   font-family: 'Dancing Script', Helvetica, Arial, sans-serif;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   font-size: 22px;
 }
 
 .arrow {
-  margin-top: 20px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -192,26 +193,36 @@ header .hero p.description {
   text-align: center;
 }
 
+.workdivider {
+  background-color: #000;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
 .box {
   align-items: center;
   background-color: #d3d3d3;
   display: flex;
   /*box-shadow: 0 2px 4px 0 rgba(0,0,0,.20);*/
-  height: 350px;
+  height: 450px;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
 
-#box1:hover {
+#box1 {
   background: url('../images/macbook.png');
   background-size: 100%;
 }
 
-#box1 h1 {
-  color: #000;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  margin-top: 0px;
+#box2 {
+  background: url('../images/wrw.png');
+  background-size: 100%;
+}
+
+#box3 {
+  background: url('../images/socialmedia.png');
+  background-size: 100%;
 }
 
 .box .brightboardlogo {
@@ -237,7 +248,7 @@ header .hero p.description {
   color: #fff;
   font-family: "Open Sans";
   font-weight: 400;
-  padding: 10px 30px;
+  padding: 30px 50px;
   text-align: center;
   text-decoration: none;
   width: 140px;
@@ -263,6 +274,18 @@ header .hero p.description {
   width: 50%;
 }
 
+.boxtext h1 {
+  color: #000;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+}
+
+.boxtext h2 {
+  color: #000;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
 
 /* FOOTER */
 footer {

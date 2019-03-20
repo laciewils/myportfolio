@@ -151,6 +151,7 @@ header .contactcontent h1 {
 
 header .contactcontent h2 {
   font-weight: bold;
+  margin-bottom: 40px;
   margin-top: 0;
 }
 
@@ -184,8 +185,6 @@ header .contactcontent p {
   background: #000;
   border: 2px solid #000000;
   border-radius: 1px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
-
   color: #fff;
   display: inline-block;
   font-family: "Open Sans";
