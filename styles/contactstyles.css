@@ -136,7 +136,7 @@ header a {
 }
 
 .contactcontent {
-  padding-left: 250px;
+  padding-left: 200px;
   padding-top: 60px;
   width: 100%;
 }
@@ -284,6 +284,10 @@ footer nav ul li a {
 
   header {
     padding-bottom: 200px;
+  }
+
+  .topheader {
+    padding: 10px 40px;
   }
 
   .navigation ul {

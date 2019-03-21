@@ -1016,7 +1016,7 @@ img {vertical-align: middle;}
 /* WORK */
 .worktitle {
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #fff;
   color: #000;
   font-size: 28px;
   padding-bottom: 30px;
@@ -1024,37 +1024,38 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
+.workdivider {
+  background-color: #000;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
 .work .box {
   align-items: center;
   background-color: #d3d3d3;
   display: flex;
   /*box-shadow: 0 2px 4px 0 rgba(0,0,0,.20);*/
-  height: auto;
+  height: 450px;
   justify-content: center;
-  padding-bottom: 60px;
-  padding-top: 60px;
   text-align: center;
   width: 100%;
 }
 
-.work #box1:hover {
+.work #box1 {
   background: url('../images/macbook.png');
   background-size: 100%;
-  }
-
-.work #box1 h1 {
-  color: #000;
-  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
-  margin-top: 0px;
 }
 
-.work .box .brightboardlogo {
-  display: block;
-  margin: auto;
-  margin-bottom: 0px;
-  padding: 0px;
-  width: 200px;
+.work #box2 {
+  background: url('../images/wrw.png');
+  background-size: 100%;
 }
+
+.work #box3 {
+  background: url('../images/socialmedia.png');
+  background-size: 100%;
+}
+
 
 .work .box .macbook {
   width: 500px;
@@ -1066,20 +1067,33 @@ img {vertical-align: middle;}
 }
 
 .work a.btn {
-  background: #FFF;
+  background: #000;
   border-radius: 1px;
-  color: #000;
+  color: #fff;
   font-family: "Open Sans";
   font-weight: 400;
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
-  width: 150px;
+  width: 140px;
 }
 
 .work a.btn:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+.work .boxtext h1 {
+  color: #000;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+}
+
+.work .boxtext h2 {
+  color: #000;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 

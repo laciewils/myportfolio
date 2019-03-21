@@ -225,13 +225,6 @@ header .hero p.description {
   background-size: 100%;
 }
 
-.box .brightboardlogo {
-  display: block;
-  margin: auto;
-  margin-bottom: 0px;
-  padding: 0px;
-  width: 200px;
-}
 
 .box .macbook {
   width: 500px;
@@ -248,7 +241,7 @@ header .hero p.description {
   color: #fff;
   font-family: "Open Sans";
   font-weight: 400;
-  padding: 30px 50px;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
   width: 140px;
@@ -257,21 +250,6 @@ header .hero p.description {
 .work a.btn:hover {
   background-color: #fff;
   color: #000;
-}
-
-.box .wrwlogo {
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
-  width: 400px;
-}
-
-.codeforpdxlogo {
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
-  padding: 0px;
-  width: 50%;
 }
 
 .boxtext h1 {
@@ -342,7 +320,11 @@ footer nav ul li a {
   /* For mobile phones: */
 
   header {
-    padding: 20px 40px;
+    padding: 0px 0px;
+  }
+
+  .topheader {
+    padding: 10px 40px;
   }
 
   .navigation ul {
@@ -359,6 +341,15 @@ footer nav ul li a {
 @media only screen and (min-width:620px) {
   /* For mobile phones: */
 
+  .topheader {
+    padding: 40px 80px;
+  }
+
+  header .hero {
+    padding-top: 0px;
+    width: 90%;
+  }
+
   footer nav ul {
     font-size: 22px;
   }
@@ -369,7 +360,20 @@ footer nav ul li a {
 
   header {
     padding: 20px 40px;
-    padding-bottom: 200px;
+    padding-bottom: 40px;
+  }
+
+  header .hero p.description {
+    width: 90%;
+  }
+
+  .hero {
+    margin: 0 auto;
+    padding: 0px 40px;
+  }
+
+  .arrow {
+    padding-bottom: 10px;
   }
 
   .navigation {
@@ -398,6 +402,9 @@ footer nav ul li a {
     padding-top: 40px;
   }
 
+  .work a.btn {
+    margin-bottom: 60px;
+  }
 
   footer {
     padding-bottom: 40px;
