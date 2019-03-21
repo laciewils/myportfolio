@@ -152,22 +152,35 @@ header .aboutmeheadline {
   margin: auto;
   text-align: left;
   margin-top: 20px;
-  padding: 60px 100px;
+  padding-bottom: 60px;
+  padding-left: 250px;
+  padding-top: 60px;
   width: 100%;}
 
 header .aboutmeheadline h1 span.simple {
   color: #4b1da7;
 }
 
-.arrow {
-  margin-top: 20px;
-  text-align: center;
+.aboutcontent {
+  display: flex;
+  margin-bottom: 40px;
 }
 
-.downarrow {
-  width: 32px;
-  padding-bottom: 10px;
-}
+.aboutmepicture {
+  margin-top: 20px;
+  padding-bottom: 60px;
+  padding-right: 250px;
+  padding-top: 60px;
+  }
+
+  .arrow {
+    padding-bottom: 60px;
+    text-align: center;
+  }
+
+  .downarrow {
+    width: 32px;
+  }
 
 .aboutnavbar {
   text-align: center;
