@@ -75,9 +75,9 @@ header {
 }
 
 .dropbtn {
-    background: #000;
+    background: #fff;
     border-radius: 1px;
-    color: #FFF;
+    color: #000;
     cursor: pointer;
     font-family: "Open Sans Condensed";
     font-size: 16px;
@@ -149,28 +149,21 @@ header .aboutmeheadline h1 {
 header .aboutmeheadline {
   height: 350px;
   margin: auto;
-  text-align: left;
+  text-align: center;
   margin-top: 20px;
   padding-bottom: 60px;
-  padding-left: 250px;
   padding-top: 60px;
   width: 100%;}
 
 header .aboutmeheadline h1 span.simple {
   color: #4b1da7;
+  text-align: center;
 }
+
 
 .aboutcontent {
-  display: flex;
   margin-bottom: 40px;
 }
-
-.aboutmepicture {
-  margin-top: 20px;
-  padding-bottom: 60px;
-  padding-right: 250px;
-  padding-top: 60px;
-  }
 
   .arrow {
     padding-bottom: 60px;
@@ -284,12 +277,11 @@ header a.btn {
 }
 
 .rw-wrapper{
-  text-align: left;
-	width: 50%;
+	text-align: left;
 }
 .rw-sentence{
-	margin: 0;
-  margin-bottom: 40px;
+  position: absolute;
+  padding-left: 35%;
 }
 .rw-sentence span{
 	color: #000;
@@ -456,21 +448,7 @@ footer nav ul li a {
     display: none;
   }
 
-  header .aboutme p {
-    margin-bottom: 0px;
-  }
 
-  .aboutpicture {
-    margin-top: -20px;
-  }
-
-  .aboutmeheadline {
-    margin-left: 20px;
-  }
-
-  .aboutmecontent {
-    margin-left: 20px;
-  }
 
 
 }
@@ -489,9 +467,7 @@ footer nav ul li a {
 
 @media only screen and (max-width:1024px) {
 
-  .aboutcontent {
-    display: inline-block;
-  }
+
   .aboutpicture {
     text-align: center;
   }

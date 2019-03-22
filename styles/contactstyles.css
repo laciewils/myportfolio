@@ -136,11 +136,10 @@ header a {
 }
 
 .contactcontent {
-  padding-left: 200px;
-  padding-top: 60px;
+  margin-top: 80px;
+  text-align: center;
   width: 100%;
 }
-
 
 header .contactcontent h1 {
   font-size: 48px;
@@ -169,6 +168,10 @@ header .contactcontent p {
   margin-top: 20px;
 }
 
+.contacttext {
+  margin-bottom: 80px;
+}
+
 .mailto {
   background: #FFFFFF;
   border: 2px solid #000000;
@@ -193,7 +196,23 @@ header .contactcontent p {
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
-  width: 100px;
+  width: 120px;
+}
+
+.buttons {
+
+}
+
+.emailbutton {
+  margin-bottom: 20px;
+}
+
+.emailbutton span {
+  font-size: 20px;
+}
+
+.linkedin {
+  width: 40px;
 }
 
 /*
@@ -203,15 +222,11 @@ header .contactcontent p {
   transform: translateY(-5px);
 }*/
 
-.linkedin {
-  margin-left: 20px;
-}
-
-.contactwrapper {
+/*.contactwrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+}*/
 
 
 /* Add a background color and some padding around the form */
@@ -328,9 +343,7 @@ footer nav ul li a {
     width: 100%;
   }
 
-  .contactcontent {
-    width:90%;
-  }
+
 
   .dropdownnav {
     display: none;
@@ -364,9 +377,7 @@ footer nav ul li a {
 }
 
 @media only screen and (min-width:1024px) {
-  .contactcontent {
-    width:90%;
-  }
+
 
 
 
