@@ -147,12 +147,10 @@ header .aboutmeheadline h1 {
 }
 
 header .aboutmeheadline {
-  height: 350px;
+  height: 300px;
   margin: auto;
   text-align: center;
-  margin-top: 20px;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 40px;
   width: 100%;}
 
 header .aboutmeheadline h1 span.simple {
@@ -160,6 +158,9 @@ header .aboutmeheadline h1 span.simple {
   text-align: center;
 }
 
+.aboutmepicture {
+  text-align: center;
+}
 
 .aboutcontent {
   margin-bottom: 40px;
@@ -234,7 +235,7 @@ header .aboutmecontent p {
   font-weight: 100;
   line-height: 20px;
   margin: auto;
-  width: 50%;
+  width: 70%;
 }
 
 header .content-undergrad {
@@ -340,14 +341,6 @@ header a.btn {
     100% { opacity: 0; }
 }
 
-.aboutpicture {
-  margin-left: 0px;
-  margin-top: 60px;
-}
-
-.laciepic {
-  width: 100%;
-}
 
 /* FOOTER */
 footer {
@@ -400,7 +393,12 @@ footer nav ul li a {
   text-decoration: none;
 }
 
+@media only screen and (min-width:620px) {
+  /* For mobile phones: */
 
+
+
+}
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
@@ -422,8 +420,21 @@ footer nav ul li a {
     font-size: 18px;
   }
 
-  .laciepic {
-    width: 300px;
+  header .aboutmecontent p {
+    text-align: center;
+    width: 90%;
+  }
+
+  header .aboutmecontent h3 {
+    width: 90%;
+  }
+
+  header .aboutmecontent h2 {
+    width: 90%;
+  }
+
+  .headshot {
+    width: 60%;
   }
 
   footer nav ul {
@@ -501,5 +512,8 @@ footer nav ul li a {
 
 @media only screen and (min-width:1024px) {
 
+  header .aboutmecontent p {
+    width: 50%;
+  }
 
 }
